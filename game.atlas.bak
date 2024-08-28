@@ -1,0 +1,53 @@
+
+Images/NationIcons/聚众之力国徽.png
+size: 130, 130
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/聚众之力
+  rotate: false
+  xy: 0 , 0
+  size: 130 , 130
+  orig: 130 , 130
+  offset: 0 , 0
+  index: -1
+  
+Images/NationIcons/曹魏国徽.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/曹魏
+  rotate: false
+  xy: 0 , 0
+  size: 100 , 100
+  orig: 100 , 100
+  offset: 0 , 0
+  index: -1
+  
+Images/NationIcons/民族联合国徽.png
+size: 260, 260
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/民族联合
+  rotate: false
+  xy: 0 , 0
+  size: 260 , 260
+  orig: 260 , 260
+  offset: 0 , 0
+  index: -1
+ 
+Images/NationIcons/黄巾军国徽.icon
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/黄巾军
+  rotate: false
+  xy: 0 , 0
+  size: 100 , 100
+  orig: 100 , 100
+  offset: 0 , 0
+  index: -1
+  

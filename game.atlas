@@ -1,0 +1,20 @@
+
+game.png
+size: 512, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/风灵族英雄轻语建筑图标
+  rotate: false
+  xy: 172, 64
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/风灵族英雄轻语单位图标
+  rotate: false
+  xy: 4, 4
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
