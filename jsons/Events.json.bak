@@ -1,0 +1,164 @@
+[
+    // 事件
+    {    
+        "name":"献君三策",
+        "text": "",
+        "choices": [
+            { 
+                "text":"长虹贯日·一字长蛇阵",
+                "triggeredUniques":["[+15]% Strength <for [Military] units><for [10] turns>"],
+                "conditions": []
+            },
+            { 
+                "text":"明修栈道，暗度陈仓！",
+                "triggeredUniques":["[+1] Movement<for [Military] units><for [10] turns>"],
+                "conditions": []
+            },
+            { 
+                "text":"奇门遁甲·八门金锁阵",
+                "triggeredUniques":["[+20]% Strength<vs [Military] units><when defending><for [Military] units><for [10] turns>"],
+                "conditions": []
+            }, 
+        ]
+    }
+    {    
+        "name":"猛攻",
+        "text": "",
+        "choices": [
+            { 
+                "text":"全军突击！",
+                "triggeredUniques":["[+20]% Strength <when attacking><for [5] turns>",
+                "[-5]% Strength <vs [Military] units> <when defending><for [5] turns>"]
+                //"Consumes [5] [士气]",花费5士气
+                "conditions": []
+            },
+        ]
+    }
+    {    
+        "name":"东风",
+        "text": "",
+        "choices": [
+            { 
+                "text":"今借东风，拂火烹蒸",
+                "triggeredUniques":[
+                "[+1] Movement<for [Water] units><for [2] turns>"
+                "[+10]% Strength<for [Water] units><vs [Military] units><when attacking><for [Water] units><for [2] turns>",
+                "[-5]% Strength<for [Water] units><vs [Military] units><when defending><for [Water] units><for [2] turns>"]
+                "conditions": []
+            },
+        ]
+    }
+    {    
+        "name":"智慧果成熟",
+        "text": "传说中的智慧果成熟并掉落下来了！",
+        "choices": [
+            { 
+                "text":"有人隐约中看到了智慧树上成熟的智慧果掉落下来，但走过去却什么都没有发现，之后再一回头，猛然发现有两位老人站在身后",
+                "triggeredUniques":[
+                "[2] free [智慧老人] units appear"]
+                "conditions": []
+            },
+            { 
+                "text":"传说智慧果妙用无穷，有人将掉落的成熟智慧果送给了帝国的高层们，高层愉悦之下，决定将一项免费的社会政策交给众人决定",
+                "triggeredUniques":["Free Social Policy"],
+                "conditions": []
+            },   
+            { 
+                "text":"深夜，无人发现成熟的智慧果落于土地，第二天整个帝国的农植一夜生长完成，国民普天同庆，帝国进入26回合黄金时代",
+                "triggeredUniques":["Empire enters a [26]-turn Golden Age"],
+                "conditions": []
+            },
+            { 
+                "text":"成熟的智慧果被一位路过的国民捡到，智慧果融于其身，次日，帝国出现了一位智者，其精通——",
+                "triggeredUniques":["Free Great Person"],
+                "conditions": []
+            },
+            { 
+                "text":"成熟的智慧果被送往一位仁慈的高层，高层转手将其分成数份送往帝国所有城市的孕妇，至此，所有城市中的人口有所增长",
+                "triggeredUniques":["[3] population [in all cities]"],
+                "conditions": []
+            },
+            { 
+                "text":"成熟的智慧果被送往一位高层，那位高层似有所悟，决定革除[寡头]政策并退还其成本的[260]%",
+                "triggeredUniques":["Remove [Oligarchy] and refund [260]% of its cost"],
+                "conditions": []
+            }, 
+            { 
+                "text":"成熟的智慧果被一位学者所获，其如醍醐灌顶，马上研发了一门技术——",
+                "triggeredUniques":["Free Technology"],
+                "conditions": []
+            },     
+            { 
+                "text":"成熟的智慧果送往一位高层，那位高层决定将智慧果售于它国，此次贸易获得金钱——",
+                "triggeredUniques":["Gain [66]-[266] [Gold]"],
+                "conditions": []
+            }, 
+            { 
+                "text":"成熟的智慧果被人们供养起来，日日朝拜之下，一座万神殿被人们自发建立而成",
+                "triggeredUniques":["Gain enough Faith for a Pantheon"],
+                "conditions": []
+            }, 
+            { 
+                "text":"成熟的智慧果为大家带来欢乐？",
+                "triggeredUniques":[	"Provides the cheapest [Happiness] building in your first [3] cities for free"],
+                "conditions": []
+            }, 
+        ]
+    }
+    {    
+        "name":"负面事件",
+        "text": "纨绔子弟",
+        "choices": [
+            { 
+                "text":"倒卖——
+文明领袖的后人亦有纨绔子弟，他们将所有城市中的文化建筑倒卖了出去",
+                "triggeredUniques":["Sell [Culture] buildings [in all cities]"]
+                "conditions": []
+            },
+            { 
+                "text":"跋扈——
+文明领袖的后人亦有纨绔子弟，飞扬跋扈欺压市民，随机一座城市的人口-1",
+                "triggeredUniques":["[-1] population in a random city"]
+                "conditions": []
+            },
+            { 
+                "text":"乱政——
+文明领袖的后人亦有纨绔子弟，倒施逆行，革除[寡头]政策",
+                "triggeredUniques":["Remove [Oligarchy]"]
+                "conditions": []
+            },
+            { 
+                "text":"破庙——
+文明领袖的后人亦有纨绔子弟，玩心一起，想让市民信仰于其，信徒不肯，遂在信仰之地大打出手",
+                "triggeredUniques":["Gain enough Faith for [-44]% of a Great Prophet"]
+                "conditions": []
+            },
+        ]
+    }
+//    {    
+//        "name":"鬼跳",
+//        "text": "",
+//        "choices": [
+//            { 
+//                "text":"来无影去无踪！",
+//                "triggeredUniques":[
+                //"[刺客] units gains the [鬼跳] promotion"刺客单位获得鬼跳晋升
+//                "Withdraws before melee combat<for [Military] units><for [1] turns>",]
+//                "conditions": []
+//            },
+//        ]
+//    }
+//    {
+//        "name": "召唤英雄",
+//        "text": "",
+//          "choices": [
+//            {
+//                "text": "今以地脉族众人之意志，高呼大地之名……",
+//                "triggeredUniques": ["[1] free [地脉族英雄-力山] units appear"
+                //"Provides a [地脉族英雄-力山] in your first [1] cities for free"
+//                ],
+//                "conditions": ["during the [Classical era]", "if [No-地脉族英雄-力山] is not constructed"]
+//            },
+//        ]
+//    },
+]
