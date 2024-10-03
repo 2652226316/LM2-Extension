@@ -1,0 +1,1292 @@
+Images/NationIcons/聚众之力国徽.png
+NationIcons/聚众之力
+  rotate: false
+  xy: 0 , 0
+  size: 130 , 130
+  orig: 130 , 130
+  offset: 0 , 0
+  index: -1
+
+  
+Images/BuildingIcons/文明领袖建筑图标.png
+BuildingIcons/文明领袖-安
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
+
+Images/BuildingIcons/文明领袖建筑图标.png
+BuildingIcons/文明领袖-然武
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+  
+
+Images/UnitIcons/力士单位图标.png
+UnitIcons/力士
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1  
+
+Images/UnitIcons/国民护卫队单位图标.png
+UnitIcons/国民护卫队
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
+  
+
+Images/UnitPromotionIcons/生生不息晋升图标.png
+UnitPromotionIcons/生生不息
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+
+Images/UnitPromotionIcons/众志成城晋升图标.png
+UnitPromotionIcons/众志成城
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1 
+  
+
+  
+Images/NationIcons/曹魏国徽.png
+NationIcons/曹魏
+  rotate: false
+  xy: 0 , 0
+  size: 100 , 100
+  orig: 100 , 100
+  offset: 0 , 0
+  index: -1
+  
+  
+Images/BuildingIcons/文明领袖建筑图标.png
+BuildingIcons/文明领袖-曹操
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
+  
+
+Images/UnitIcons/军师单位图标.png
+UnitIcons/军师
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+
+Images/UnitIcons/大魏虎豹骑单位图标.png
+UnitIcons/大魏虎豹骑
+  rotate: false
+  xy: 0,0
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitIcons/大魏攻城象单位图标.png
+UnitIcons/大魏攻城象
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+  
+  
+Images/TileSets/AbsoluteUnits.png
+TileSets/AbsoluteUnits/Units/军师
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/大魏虎豹骑模型.png
+TileSets/AbsoluteUnits/Units/大魏虎豹骑
+  rotate: false
+  xy: 0, 0
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1   
+  
+Images/TileSets/大魏攻城象模型.png
+TileSets/AbsoluteUnits/Units/大魏攻城象
+  rotate: false
+  xy: 0, 0
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1   
+  
+  
+Images/ResourceIcons/士气资源图标.png
+ResourceIcons/士气
+  rotate: false
+  xy: 0, 0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1  
+  
+Images/UnitPromotionIcons/野性狩猎晋升图标.png
+UnitPromotionIcons/野性狩猎
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1    
+  
+
+Images/NationIcons/民族联合国徽.png
+NationIcons/民族联合
+  rotate: false
+  xy: 0 , 0
+  size: 100 , 100
+  orig: 100 , 100
+  offset: 0 , 0
+  index: -1
+  
+
+Images/BuildingIcons/沙之塔建筑图标.png
+BuildingIcons/沙之塔
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/召唤英雄建筑图标.png
+BuildingIcons/召唤地脉族英雄
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1 
+  
+Images/BuildingIcons/召唤英雄建筑图标.png
+BuildingIcons/召唤风灵族英雄
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+ 
+Images/BuildingIcons/召唤英雄建筑图标.png
+BuildingIcons/召唤水神族英雄
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1 
+  
+
+Images/UnitIcons/英雄单位图标.png
+UnitIcons/地脉族英雄-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/古典时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/中古时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/启蒙时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/工业时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/电气时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/原子时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/信息时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/未来时代-力山
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+
+Images/UnitIcons/英雄单位图标.png
+UnitIcons/风灵族英雄-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1  
+UnitIcons/古典时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/中古时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/启蒙时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/工业时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/电气时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/原子时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/信息时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/未来时代-轻语
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+  
+Images/UnitIcons/英雄单位图标.png
+UnitIcons/水神族英雄-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/古典时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/中古时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/启蒙时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/工业时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/电气时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/原子时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/信息时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/未来时代-阿布
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+  
+Images/UnitIcons/英雄单位图标.png
+UnitIcons/水神龙·狂暴状态 I
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 II
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 III
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 IV
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 V
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 VI
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 VII
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 VIII
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+UnitIcons/水神龙·狂暴状态 IX
+  rotate: false
+  xy: 0,0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/地脉族英雄力山模型.png
+TileSets/AbsoluteUnits/Units/地脉族英雄-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/古典时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/中古时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/启蒙时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/工业时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/电气时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/原子时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/信息时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/未来时代-力山
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+
+Images/TileSets/风灵族英雄轻语模型.png
+TileSets/AbsoluteUnits/Units/风灵族英雄-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/古典时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1 
+TileSets/AbsoluteUnits/Units/中古时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1 
+TileSets/AbsoluteUnits/Units/启蒙时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/工业时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/电气时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/原子时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/信息时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/未来时代-轻语
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+
+Images/TileSets/水神族英雄阿布模型.png
+TileSets/AbsoluteUnits/Units/水神族英雄-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/古典时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+TileSets/AbsoluteUnits/Units/中古时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+TileSets/AbsoluteUnits/Units/启蒙时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/工业时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/电气时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/原子时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/信息时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/未来时代-阿布
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+
+Images/TileSets/水神龙狂暴模型.png
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 I
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 II
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 III
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 IV
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 V
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 VI
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1  
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 VII
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 VIII
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+TileSets/AbsoluteUnits/Units/水神龙·狂暴状态 IX
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1   
+  
+
+Images/ResourceIcons/水神血脉CD资源图标.png
+ResourceIcons/水神血脉CD
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1 
+  
+Images/ResourceIcons/法力资源图标.png
+ResourceIcons/法力
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1 
+  
+  
+Images/UnitPromotionIcons/英雄特有极限锻炼晋升图标.png
+UnitPromotionIcons/英雄特有-极限成长
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/锻炼晋升图标.png
+UnitPromotionIcons/锻炼
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/奇袭晋升图标.png
+UnitPromotionIcons/奇袭
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/地脉之力晋升图标.png
+UnitPromotionIcons/地脉之力
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/山脉共鸣晋升图标.png
+UnitPromotionIcons/山脉共鸣
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/地灵庇佑晋升图标.png
+UnitPromotionIcons/地灵庇佑
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/落石晋升图标.png
+UnitPromotionIcons/落石
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/地突晋升图标.png
+UnitPromotionIcons/地突
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/遁地晋升图标.png
+UnitPromotionIcons/遁地
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/地底潜行晋升图标.png
+UnitPromotionIcons/地底潜行
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/大地掌控者晋升图标.png
+UnitPromotionIcons/大地掌控者
+  rotate: false
+  xy: 0,0
+  size: 497, 497
+  orig: 497, 497
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/逐日晋升图标.png
+UnitPromotionIcons/逐日
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/寒霜晋升图标.png
+UnitPromotionIcons/寒霜
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/减速晋升图标.png
+UnitPromotionIcons/减速
+  rotate: false
+  xy: 0,0
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/沙暴晋升图标.png
+UnitPromotionIcons/沙暴
+  rotate: false
+  xy: 0,0
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/曦地往生晋升图标.png
+UnitPromotionIcons/曦地往生
+  rotate: false
+  xy: 0,0
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/零度晋升图标.png
+UnitPromotionIcons/零度
+  rotate: false
+  xy: 0,0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/虚弱晋升图标.png
+UnitPromotionIcons/虚弱
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/起峰晋升图标.png
+UnitPromotionIcons/起峰
+  rotate: false
+  xy: 0,0
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/叫阵晋升图标.png
+UnitPromotionIcons/叫阵
+  rotate: false
+  xy: 0,0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/铁壁晋升图标.png
+UnitPromotionIcons/铁壁
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/风灵祝福晋升图标.png
+UnitPromotionIcons/风灵祝福
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/风之加护晋升图标.png
+UnitPromotionIcons/风之加护
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/风予之速晋升图标.png
+UnitPromotionIcons/风予之速
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/风旋箭矢晋升图标.png
+UnitPromotionIcons/风旋箭矢
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/毒风箭矢晋升图标.png
+UnitPromotionIcons/毒风箭矢
+  rotate: false
+  xy: 0,0
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/蓄势风爆箭晋升图标.png
+UnitPromotionIcons/蓄势风爆箭
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/蓄势晋升图标.png
+UnitPromotionIcons/蓄势
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/暴风箭晋升图标.png
+UnitPromotionIcons/风爆箭
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/风起晋升图标.png
+UnitPromotionIcons/风起
+  rotate: false
+  xy: 0,0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/狂风晋升图标.png
+UnitPromotionIcons/狂风
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/台风晋升图标.png
+UnitPromotionIcons/台风
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/暴风晋升图标.png
+UnitPromotionIcons/暴风
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/龙卷风晋升图标.png
+UnitPromotionIcons/龙卷风
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/后援晋升图标.png
+UnitPromotionIcons/后援
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/重势晋升图标.png
+UnitPromotionIcons/重势
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水之律动晋升图标.png
+UnitPromotionIcons/水之律动
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/水遁晋升图标.png
+UnitPromotionIcons/水遁
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/水系法术液化晋升图标.png
+UnitPromotionIcons/水系法术·液化
+  rotate: false
+  xy: 0,0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/液化晋升图标.png
+UnitPromotionIcons/液化
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+
+Images/UnitPromotionIcons/水系法术水龙破晋升图标.png
+UnitPromotionIcons/水系法术·水龙破
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水龙破晋升图标.png
+UnitPromotionIcons/水龙破
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水系法术水流体晋升图标.png
+UnitPromotionIcons/水系法术·水流体
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水流体晋升图标.png
+UnitPromotionIcons/水流体
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+
+Images/UnitPromotionIcons/水系法术水囚牢晋升图标.png
+UnitPromotionIcons/水系法术·水囚牢
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水囚牢晋升图标.png
+UnitPromotionIcons/水囚牢
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/天灾级法术水核灭世晋升图标.png
+UnitPromotionIcons/天灾级禁术·水核灭世
+  rotate: false
+  xy: 0,0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/水核灭世晋升图标.png
+UnitPromotionIcons/水核灭世
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
+
+Images/NationIcons/斗战威海国徽.png
+NationIcons/斗战威海
+  rotate: false
+  xy: 0 , 0
+  size: 100 , 100
+  orig: 100 , 100
+  offset: 0 , 0
+  index: -1  
+
+
+Images/BuildingIcons/文明领袖建筑图标.png
+BuildingIcons/文明领袖-悲剧
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/军策营建筑图标.png
+BuildingIcons/军策营
+  rotate: false
+  xy: 0,0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1 
+  
+  
+Images/UnitIcons/龙海帆单位图标.png
+UnitIcons/龙海帆
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/UnitIcons/威海炮单位图标.png
+UnitIcons/威海炮
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/UnitPromotionIcons/威海晋升图标.png
+UnitPromotionIcons/威海
+  rotate: false
+  xy: 0,0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/龙海帆晋升图标.png
+UnitPromotionIcons/龙海帆特有晋升
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/扬帆晋升图标.png
+UnitPromotionIcons/扬帆
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/游龙入海晋升图标.png
+UnitPromotionIcons/游龙入海
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+
+Images/UnitPromotionIcons/威海炮晋升图标.png
+UnitPromotionIcons/威海炮特有晋升
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/空瞄晋升图标.png
+UnitPromotionIcons/空瞄
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/斗战狂潮晋升图标.png
+UnitPromotionIcons/斗战狂潮
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
