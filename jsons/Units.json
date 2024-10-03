@@ -1,0 +1,1328 @@
+[
+    // 公民单位
+    // 与聚众之力相关
+    {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70
+		"uniques": [
+		"Can build [Land] improvements on tiles", 
+		"Automation is a primary action", 
+		"[This Unit] gains the [Blizzard Wind Ability] promotion<for [Finland]><hidden from users>",
+		"[-25]% production cost<for [Iroquois]><hidden from users>",
+		"Turn this tile into a [Forest] tile<once><in [Your] cities><for [Vietnam]><hidden from users>"
+		"Turn this tile into a [Forest] tile<in [Your] cities><for [Vietnam]><by consuming this unit><hidden from users>"
+		"[-25]% production cost <for [聚众之力]> <if [文明领袖-安] is constructed><hidden from users>"
+		],
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"uniques": [
+		"Founds a new city <by consuming this unit>",
+		"Excess Food converted to Production when under construction",
+		"Requires at least [2] population",
+		"Can instantly construct a [Colony] improvement <[1] times> <for [Spain]><hidden from users>",
+		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]><hidden from users>",
+		"[-25]% production cost <for [Iroquois]> <hidden from users>"
+		"[-25]% production cost <for [聚众之力]> <if [文明领袖-安] is constructed><hidden from users>"
+		],
+	},
+	// 文明特色单位
+	
+	// 聚众之力
+	{
+		"name": "力士",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 9,
+		"cost": 33,
+		"uniqueTo": "聚众之力",
+		"replaces": "Warrior",
+		"upgradesTo": "Swordsman",
+		"promotions":["生生不息"],
+		"uniques":[
+		 "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>",
+		 "May upgrade to [Spearman] through ruins-like effects",
+		 "[+10]% Strength <vs [Military] units> <when defending>",
+		 "[-26]% production cost <for [聚众之力]> <if [文明领袖-然武] is constructed><hidden from users>"
+		 ]
+		"attackSound": "nonmetalhit"	
+	},
+	{
+		"name": "国民护卫队",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 35,
+		"uniqueTo": "聚众之力",
+		"replaces": "Archer",
+		"upgradesTo": "Composite Bowman",
+		"requiredTech": "Trapping",
+		"promotions":["众志成城"],
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"
+	},
+	// 曹魏
+	{
+		"name": "大魏虎豹骑",
+		"unitType": "Mobile",
+		"movement": 3,
+		"strength": 15,
+		"cost": 77,
+		"uniqueTo": "曹魏",
+		"replaces": "Horseman"
+		"upgradesTo": "Knight",
+		"requiredTech": "Horseback Riding",
+		"promotions":["野性狩猎"],
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+		"[-33]% Strength <vs cities> <when attacking>", 
+		"[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"
+		],
+		"attackSound": "horse"
+		//马的声音需要搞成老虎
+	},
+	{
+		"name": "大魏攻城象",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 77,
+		"uniqueTo": "曹魏",
+		"replaces": "Catapult"
+		"upgradesTo": "Trebuchet",
+		"requiredTech": "The Wheel",
+		"uniques": [
+		"No defensive terrain bonus",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs cities> <when defending>",
+		"[+50]% Strength <when fighting in [Fort] tiles> <when attacking>",
+		"[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"
+		"[+1] Sight",
+		"Can move after attacking"
+		],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "军师",
+		"unitType": "Civilian",
+		"uniqueTo": "曹魏",
+		"movement": 2,
+		"replaces": "Great General",
+		"uniques": ["Triggers a [献君三策] event<by consuming this unit>", 
+		"[+10]% Strength bonus for [Land] units within [3] tiles",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]",
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable",
+		"Uncapturable",
+		"Can be earned through combat<for [曹魏]>"],
+	},
+	// 民族联合
+	{
+		"name": "地脉族英雄-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 10,
+		"uniqueTo": "民族联合",
+		"promotions":["英雄特有-极限成长","地脉之力",]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Only available <in cities with a [召唤地脉族英雄]><hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [古典时代-力山]<during the [Classical era]><hidden from users>",
+		"Can transform to [中古时代-力山]<during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-力山]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-力山]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-力山]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "古典时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 18,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [中古时代-力山]<during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-力山]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-力山]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-力山]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "中古时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 26,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [启蒙时代-力山]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-力山]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-力山]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "启蒙时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 36,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [工业时代-力山]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-力山]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "工业时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 46,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [电气时代-力山]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "电气时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 56,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [原子时代-力山]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "原子时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 66,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [信息时代-力山]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "信息时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 76,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		"Can transform to [未来时代-力山]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "未来时代-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 88,
+		"promotions":["英雄特有-极限成长","地脉之力"]
+		"uniques":[
+	    "Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “厚德载物”——防御时，＋25%战斗力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+        "Limited to [1] per Civilization<hidden from users>",
+		"[+25]% Strength<when defending><hidden from users>",
+		]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "风灵族英雄-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 7,
+		"range": 2,
+	    "rangedStrength": 8,
+		"uniqueTo": "民族联合",
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Only available <in cities with a [召唤风灵族英雄]><hidden from users>"
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [古典时代-轻语]<during the [Classical era]><hidden from users>",
+		"Can transform to [中古时代-轻语]<during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-轻语]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-轻语]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-轻语]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "古典时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 15,
+		"range": 2,
+	    "rangedStrength": 16,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [中古时代-轻语]<during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-轻语]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-轻语]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-轻语]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "中古时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 23,
+		"range": 2,
+	    "rangedStrength": 24,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [启蒙时代-轻语]<during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-轻语]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-轻语]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "启蒙时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 33,
+		"range": 2,
+	    "rangedStrength": 34,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [工业时代-轻语]<during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-轻语]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "工业时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 43,
+		"range": 2,
+	    "rangedStrength": 44,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [电气时代-轻语]<during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "电气时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 53,
+		"range": 2,
+	    "rangedStrength": 54,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [原子时代-轻语]<during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "原子时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 63,
+		"range": 2,
+	    "rangedStrength": 64,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+		"Can transform to [信息时代-轻语]<during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "信息时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 73,
+		"range": 2,
+	    "rangedStrength": 74,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",
+	    "Can transform to [未来时代-轻语]<during the [Future era]><hidden from users>",
+		]
+		"attackSound": "crossbow"		
+	},
+	{
+		"name": "未来时代-轻语",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 83,
+		"range": 2,
+	    "rangedStrength": 84,
+		"promotions":["英雄特有-极限成长","风灵祝福",]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    
+	    “听风”——可以看破隐形单位
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+		"Can see invisible [Military] units<hidden from users>",]
+		"attackSound": "crossbow"		
+	},
+    {
+		"name": "水神族英雄-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 9,
+		"range": 1,
+		"rangedStrength": 9,
+		"uniqueTo": "民族联合",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	   
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 I]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack><hidden from users>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",    
+	    "Can transform to [古典时代-阿布]<when below [194] [水神血脉CD]><during the [Classical era]><hidden from users>",
+		"Can transform to [中古时代-阿布]<when below [194] [水神血脉CD]><during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-阿布]<when below [194] [水神血脉CD]><during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-阿布]<when below [194] [水神血脉CD]><during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-阿布]<when below [194] [水神血脉CD]><during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "古典时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 17,
+		"range": 1,
+		"rangedStrength": 17,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 II]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack><hidden from users>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    "Can transform to [中古时代-阿布]<when below [194] [水神血脉CD]><during the [Medieval era]><hidden from users>",
+		"Can transform to [启蒙时代-阿布]<when below [194] [水神血脉CD]><during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-阿布]<when below [194] [水神血脉CD]><during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-阿布]<when below [194] [水神血脉CD]><during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "中古时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 25,
+		"range": 1,
+		"rangedStrength": 25,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 III]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack><hidden from users>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    "Can transform to [启蒙时代-阿布]<when below [194] [水神血脉CD]><during the [Renaissance era]><hidden from users>",
+		"Can transform to [工业时代-阿布]<when below [194] [水神血脉CD]><during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-阿布]<when below [194] [水神血脉CD]><during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "启蒙时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 35,
+		"range": 1,
+		"rangedStrength": 35,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 IV]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>",
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>",
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>",
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    "Can transform to [工业时代-阿布]<when below [194] [水神血脉CD]><during the [Industrial era]><hidden from users>",
+		"Can transform to [电气时代-阿布]<when below [194] [水神血脉CD]><during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "工业时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 45,
+		"range": 1,
+		"rangedStrength": 45,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 V]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+		"Can transform to [电气时代-阿布]<when below [194] [水神血脉CD]><during the [Modern era]><hidden from users>",
+		"Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "电气时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 55,
+		"range": 1,
+		"rangedStrength": 55,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 VI]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>",
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    "Can transform to [原子时代-阿布]<when below [194] [水神血脉CD]><during the [Atomic era]><hidden from users>",
+		"Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "原子时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 65,
+		"range": 1,
+		"rangedStrength": 65,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 VII]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "Can transform to [信息时代-阿布]<when below [194] [水神血脉CD]><during the [Information era]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "信息时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 75,
+		"range": 1,
+		"rangedStrength": 75,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	 
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 VIII]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly provides [1] [法力]<upon ending a turn in a [Water] tile><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+		"Can transform to [未来时代-阿布]<when below [194] [水神血脉CD]><during the [Future era]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+    {
+		"name": "未来时代-阿布",
+		"unitType": "英雄",
+		"movement": 3,
+		"strength": 85,
+		"range": 1,
+		"rangedStrength": 85,
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神后裔”——下水时不会处于船运状态，当HP低于30时，可主动激活体内潜藏的水神血脉，并且进入狂暴状态（持续1回合）（冷却200回合）
+	    结束狂暴状态后的第二回合，会陷入4回合[虚弱]状态，期间无法移动、无法攻击
+	    	    
+	    第二单位类型：法师
+	    攻击时和防御时都视为使用魔法（每次攻击时或被攻击时都将消耗1[法力]）
+	    法力值在80及以上时进入[法术模型快速构建]状态（战斗力＋33%）
+	    法力值在20及以下时进入[精神透支]状态（战斗力-33%，法力回复速度降低）	
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "Can transform to [水神龙·狂暴状态 IX]<when below [30] HP><costs [-200] [水神血脉CD]><when below [1] [水神血脉CD]><hidden from users>"
+	    "[This Unit] gains the [虚弱] status for [5] turn(s)<when between [198] and [198] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Instantly consumes [200] [水神血脉CD]<upon being defeated><hidden from users>"
+	    "Instantly consumes [1] [法力]<upon losing at least [0] HP in a single attack>",
+	    "[This Unit] gains the [法术模型快速构建] status for [2] turn(s)<upon turn end><for units without [精神透支]><for units without [虚弱]><when between [80] and [100] [法力]><hidden from users>",
+	    "[This Unit] gains the [精神透支] status for [2] turn(s)<upon turn end><for units without [法术模型快速构建]><for units without [虚弱]><when between [1] and [20] [法力]><hidden from users>",
+	    ]
+		"attackSound": "nuke"		
+	},
+	{
+		"name": "水神龙·狂暴状态 I",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 15,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 II",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 25,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 III",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 35,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 IV",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 45,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 V",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 55,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 VI",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 65,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 VII",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 75,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 VIII",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 85,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	{
+		"name": "水神龙·狂暴状态 IX",
+		"unitType": "英雄",
+		"movement": 5,
+		"strength": 95,
+		"upgradesTo": "水神族英雄-阿布",
+		"requiredTech": "Future Tech",
+		"promotions":["英雄特有-极限成长","水之律动"]
+		"uniques": [
+		"Comment [
+	    不可建造或购买
+	    每局游戏仅限一位
+	    无法掠夺地块设施
+	    
+	    “水神之力”——消除跨海、跨河的攻击影响
+	    在[Ocean]地块上+33%战斗力
+	    在[Coast]地块上+22%战斗力
+	    在[Lakes]地块上+11%战斗力
+	    
+	    “狂暴”——攻击次数变为3次，攻击后可移动，＋5移动力
+	    ]"
+	    "Unbuildable<hidden from users>",
+	    "Cannot be purchased<hidden from users>",
+	    "Limited to [1] per Civilization<hidden from users>",
+	    "May travel on Water tiles without embarking<hidden from users>",
+	    "[This Unit] upgrades for free<when between [199] and [199] [水神血脉CD]><upon turn end><hidden from users>"
+	    "Eliminates combat penalty for attacking across a coast<hidden from users>"
+	    "Eliminates combat penalty for attacking over a river<hidden from users>",
+	    "[+33]% Strength<in [Ocean] tiles>",
+		"[+22]% Strength<in [Coast] tiles>",
+	    "[+11]% Strength<in [Lakes] tiles>",
+	    "[+5] Movement<hidden from users>",
+	    "[2] additional attacks per turn<hidden from users>"
+	    "Can move after attacking<hidden from users>"
+	    "No damage penalty for wounded units<hidden from users>"
+	    ]
+		"attackSound": "nonmetalhit"		
+	},
+	// 斗战威海
+	{
+		"name": "龙海帆",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 6,
+		"cost": 44,
+		"uniqueTo":"斗战威海"
+		"promotions":["龙海帆特有晋升"]
+		"replaces":"Trireme"
+		"requiredTech": "Sailing",
+		"uniques": [
+		"Cannot enter ocean tiles<before discovering [Compass]><for units without [游龙入海]><hidden from users>"
+		"[+1] Sight",
+		"Can move after attacking"
+		],
+		"upgradesTo": "威海炮",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "威海炮",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 150,
+		"uniqueTo":"斗战威海"
+		"promotions":["威海炮特有晋升"]
+		"replaces":"Galleass"
+	    "requiredTech": "Compass",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>"
+		//"Must set up to ranged attack",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs cities> <when defending>",
+		//"This Unit gains the [空瞄] promotion<every [1] turns><for units without [斗战狂潮]>"
+		//"This Unit loses the [空瞄] promotion<every [1] turns><for units with [斗战狂潮]>"
+		//"This Unit loses the [空瞄] promotion<for [5] turns><for units with [斗战狂潮]>"
+		],
+		"attackSound": "cannon"
+	},
+]

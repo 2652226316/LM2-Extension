@@ -1,0 +1,49 @@
+[
+    // 民族联合
+    {
+        "name": "英雄",
+        "movementType": "Land"
+        "uniques": [
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Instantly consumes [2] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Comment [
+        英雄登场:获得英雄单位时，立刻获得7[Culture]、[Faith]（随游戏速度更改）
+        英雄气节：永远不会以野蛮人身份出现，且不可掠夺地块设施
+        英雄体魄：回合结束时自动恢复一定生命值
+        刻苦训练：在己方领土的陆地地块结束回合时获得1XP
+        自然之力：在植被地块结束回合时+3HP
+        单体行动 I：忽视地块控制权
+        单体行动 II：可进入外国未开放边界的领土
+        单体行动 III：船运状态防御时增加一定战斗力
+        单体行动 IIII：登陆、登船只消耗1移动力
+        绝境逢生：HP低于33%时战斗力＋33%
+        并肩作战：和英雄单位相邻时战斗力＋17%
+        英雄信仰：防止宗教传播到它旁边的城市
+        人民崇拜：击杀敌方单位时获得其50%的战斗力作为[Faith]
+        英雄荣誉：击杀主要文明的单位时额外消除1[Warfare Aversion Level]
+        人人皆可是英雄:英雄被打败后消除4厌战度[Warfare Aversion Level]
+        ]"
+        "Gain [7] [Culture]<(modified by game speed)><hidden from users>",
+        "Gain [7] [Faith]<(modified by game speed)><hidden from users>",
+        "Never appears as a Barbarian unit<hidden from users>",
+        "Unable to pillage tiles<hidden from users>"
+        "Unit will heal every turn, even if it performs an action<hidden from users>",
+        "This Unit gains [1] XP<upon ending a turn in a [Land] tile><in [Your] cities><hidden from users>",
+        "Heal this unit by [3] HP <upon ending a turn in a [Vegetation] tile><hidden from users>",
+        "Defense bonus when embarked<hidden from users>",
+        "[1] Movement point cost to disembark<hidden from users>",
+        "[1] Movement point cost to embark<hidden from users>",
+        "Ignores Zone of Control<hidden from users>",
+        "May enter foreign tiles without open borders<hidden from users>",
+        "[+33]% Strength<when below [33] HP><hidden from users>",
+        "[+17]% Strength <when adjacent to a [英雄] unit><hidden from users>",
+        "Earn [50]% of killed [Military] unit's [Strength] as [Faith]<upon defeating a [Military] unit><hidden from users>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]><hidden from users>",
+        "Prevents spreading of religion to the city it is next to<hidden from users>",
+        "Instantly consumes [4] [Warfare Aversion Level] <upon being defeated><hidden from users>",
+	   ]
+    },
+]

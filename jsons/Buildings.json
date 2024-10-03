@@ -1,0 +1,135 @@
+[
+    // 文明特色建筑
+    
+	// 聚众之力
+	{	
+        "name": "文明领袖-安",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "聚众之力",
+		"replacementTextForUniques": "
+		所有城市建造移民和工人的所需[Production]-25%
+		平民单位移动力+1
+		",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-然武]>",
+		"[+2 Happiness] [in all cities]"
+		"[+1] Movement <for [Civilian] units>"
+		],
+	},
+	{	
+        "name": "文明领袖-然武",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "聚众之力",
+		"replacementTextForUniques": "
+		所有城市建造力士的所需[Production]-25%
+		力士移动力+1
+		",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-安]>",	
+		"[+2 Happiness] [in all cities]"
+	    "[+1] Movement <for [力士] units>"
+		]
+	},
+	// 曹魏
+	{	
+        "name": "文明领袖-曹操",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "曹魏",
+		"replacementTextForUniques": "
+		每25回合获得一位[军师]单位
+		每回合 +1 [士气]
+		",
+		//“枭雄·曹操——彼之妻妾，吾之性奴也”
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-曹髦]>",
+		"[1] free [军师] units appear<upon turn end><every [24] turns>",
+		"Provides [1] [士气]"]
+	},
+	// 民族联合
+	{	
+        "name": "沙之塔",
+		"cost":66,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "在这个城市中，沙漠地块＋1信仰 +1文化 +1产能",
+		"uniques": ["[+1 Culture, +1 Production, +1 Faith] from [Desert] tiles [in this city]"]
+	},
+	{	
+        "name": "召唤地脉族英雄",
+		"isNationalWonder": true,
+		"cost":66,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以地脉族众人之意志，高呼大地之名！
+		获得一位[地脉族英雄-力山]",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤风灵族英雄]>",
+		"Only available <in cities without a [召唤水神族英雄]>",
+	    "[1] free [地脉族英雄-力山] units appear",
+	    "[-15]% Production when constructing [Military] units [in all cities]"
+	    "Provides [-1] [CD]<when above [0] [CD]>"
+	    ]
+	}
+	{	
+        "name": "召唤风灵族英雄",
+		"isNationalWonder": true,
+		"cost":66,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以风灵族众人之意志，贯彻无怨无悔之风
+		获得一位[风灵族英雄-轻语]",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤地脉族英雄]>",
+		"Only available <in cities without a [召唤水神族英雄]>",
+	    "[1] free [风灵族英雄-轻语] units appear",
+	    "[-15]% Production when constructing [Military] units [in all cities]"]
+	}
+	{	
+        "name": "召唤水神族英雄",
+		"isNationalWonder": true,
+		"cost":66,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以水神族众人之意志，乘冲天巨浪牧世间
+		获得一位[水神族英雄-阿布]",
+		"uniques": ["Instantly provides [100] [法力]",
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤地脉族英雄]>",
+		"Only available <in cities without a [召唤风灵族英雄]>",
+		"[1] free [水神族英雄-阿布] units appear",
+		"[-15]% Production when constructing [Military] units [in all cities]",
+		"Provides [-1] [水神血脉CD]<when above [0] [水神血脉CD]>"		,
+		"Provides [2] [法力]<when below [100] [法力]>",
+		"Instantly consumes [1] [法力]<when between [101] and [101] [法力]><upon turn end>",
+        "Instantly consumes [2] [法力]<when between [102] and [102] [法力]><upon turn end>",
+        "Instantly consumes [3] [法力]<when between [103] and [103] [法力]><upon turn end>",
+        "Provides [-1] [法力]<when between [20] and [1] [法力]>",
+        ]   
+	}
+	// 斗战威海
+	{	
+        "name": "文明领袖-悲剧",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "斗战威海",
+		"replacementTextForUniques": "
+		所有军事单位获得[威海]晋升
+		击败敌方单位后有几率俘获该单位",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"When defeating a [Military] unit, earn [0] Gold and recruit it <with [10]% chance>",
+		"[Military] units gain the [威海] promotion"]
+	}
+	{
+		"name": "军策营",
+		"science": 2,
+		"maintenance": 1,
+		"cost": 88,
+		"replaces": "Barracks"
+		"uniqueTo": "斗战威海",
+		"uniques": ["Only available <in cities with a [City Level II]>",
+		"New [Military] units start with [15] Experience [in this city]",
+		"Destroyed when the city is captured", 
+		"Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Army Formation"
+	},
+]
