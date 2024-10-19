@@ -1,0 +1,486 @@
+[
+    // 文明特色建筑
+    
+	// 聚众之力
+	{	
+        "name": "文明领袖-安",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "聚众之力",
+		"replacementTextForUniques": "
+		所有城市建造移民和工人的所需[Production]-25%
+		平民单位移动力+1
+		己方单位获得[心心相印]晋升
+		",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-然武]>",
+		"[+2 Happiness] [in all cities]",
+		"[+1] Movement <for [Civilian] units>",
+		],
+	},
+	{	
+        "name": "文明领袖-然武",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "聚众之力",
+		"replacementTextForUniques": "
+		所有城市建造力士的所需[Production]-25%
+		力士移动力+1
+		
+		",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-安]>",	
+		"[+2 Happiness] [in all cities]"
+	    "[+1] Movement <for [力士] units>"
+		]
+	},
+	// 曹魏
+	{	
+        "name": "文明领袖-曹操",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "曹魏",
+		"replacementTextForUniques": "
+		每25回合获得一位[军师]单位
+		每回合 +1 [士气]
+		",
+		//“枭雄·曹操——彼之妻妾，吾之性奴也”
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-曹髦]>",
+		"[1] free [军师] units appear<upon turn end><every [24] turns>",
+		"Provides [1] [士气]"]
+	},
+	// 民族联合
+	{	
+        "name": "召唤地脉族英雄",
+		"isNationalWonder": true,
+		"cost":188,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以地脉族众人之意志，高呼大地之名！
+		获得一位[地脉族英雄-力山]",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤风灵族英雄]>",
+		"Only available <in cities without a [召唤水神族英雄]>",
+	    "[1] free [地脉族英雄-力山] units appear",
+	    "[-15]% Production when constructing [Military] units [in all cities]"
+	    ]
+	}
+	{	
+        "name": "召唤风灵族英雄",
+		"isNationalWonder": true,
+		"cost":188,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以风灵族众人之意志，贯彻无怨无悔之风
+		获得一位[风灵族英雄-轻语]",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤地脉族英雄]>",
+		"Only available <in cities without a [召唤水神族英雄]>",
+	    "[1] free [风灵族英雄-轻语] units appear",
+	    "[-15]% Production when constructing [Military] units [in all cities]"]
+	}
+	{	
+        "name": "召唤水神族英雄",
+		"isNationalWonder": true,
+		"cost":188,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "今以水神族众人之意志，乘冲天巨浪牧世间
+		获得一位[水神族英雄-阿布]",
+		"uniques": ["Instantly provides [100] [法力]",
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [召唤地脉族英雄]>",
+		"Only available <in cities without a [召唤风灵族英雄]>",
+		"[1] free [水神族英雄-阿布] units appear",
+		"[-15]% Production when constructing [Military] units [in all cities]",
+		"Provides [2] [法力]<when below [100] [法力]>",
+		"Instantly consumes [1] [法力]<when between [101] and [101] [法力]><upon turn end>",
+        "Instantly consumes [2] [法力]<when between [102] and [102] [法力]><upon turn end>",
+        "Instantly consumes [3] [法力]<when between [103] and [103] [法力]><upon turn end>",
+        "Provides [-1] [法力]<when between [20] and [1] [法力]>",
+        ]   
+	},
+	{	
+        "name": "沙之塔",
+		"cost":66,
+		"uniqueTo": "民族联合",
+		"replacementTextForUniques": "在这个城市中，沙漠地块＋1信仰 +1文化 +1产能",
+		"uniques": ["[+1 Culture, +1 Production, +1 Faith] from [Desert] tiles [in this city]"]
+	},
+	// 斗战威海
+	{	
+        "name": "文明领袖-悲剧",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "斗战威海",
+		"replacementTextForUniques": "
+		所有军事单位获得[威海]晋升
+		击败敌方单位后有几率俘获该单位",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"When defeating a [Military] unit, earn [0] Gold and recruit it <with [10]% chance>",
+		"[Military] units gain the [威海] promotion"]
+	}
+	{
+		"name": "军策营",
+		"science": 2,
+		"maintenance": 1,
+		"cost": 88,
+		"replaces": "Barracks"
+		"uniqueTo": "斗战威海",
+		"uniques": ["Only available <in cities with a [City Level II]>",
+		"New [Military] units start with [15] Experience [in this city]",
+		"Destroyed when the city is captured", 
+		"Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Army Formation"
+	},
+	// 黄巾军
+	{	
+        "name": "文明领袖-张角",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "黄巾军",
+		"replacementTextForUniques": "击败敌军单位时，获得该单位战斗力50%的[Faith]
+		征服一座城市后出现2个免费的[三十六方众]单位"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-马元义]>",
+		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+		"[2] free [三十六方众] units appear <upon conquering a city>"],
+	},
+	{	
+        "name": "文明领袖-马元义",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "黄巾军",
+		"replacementTextForUniques": "可以用3倍于正常生产成本的价格购买军事单位
+		可以用3倍于正常生产成本的价格[三十六方众]单位和[Settler]单位",
+		"uniques": ["Can only be built<in [in capital] cities>", 
+		"Only available <in cities without a [文明领袖-张角]>",
+		"May buy [Military] units with [Faith] for [3] times their normal Production cost",
+		"May buy [三十六方众] units with [Faith] for [3] times their normal Production cost",
+		"May buy [Settler] units with [Faith] for [3] times their normal Production cost"],
+	},
+	{
+		"name": "施粥处",
+		"uniqueTo": "黄巾军",
+		"replaces": "Courthouse",
+		"happiness": 1,
+		"food": 3,
+		"culture": 1,
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level I]>",
+		"Destroyed when the city is captured",
+		"Provides [1] [Number of Buildings] <in this city>"
+		"Remove extra unhappiness from annexed cities",],
+		"requiredTech": "Bronze Working",
+	},
+	// 暗杀楼
+    {	
+        "name": "文明领袖-邪袅",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "暗杀楼",
+		"replacementTextForUniques": "[刺客]单位获得 [赏金刺客] 单位升级路径
+		每回合 +1 [血影之契]"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-叁新]>",
+	    "Only available <in cities without a [文明领袖-伍六七]>",
+		"Provides [1] [血影之契]"],
+	},
+	{	
+        "name": "文明领袖-叁新",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "暗杀楼",
+		"replacementTextForUniques": "[刺客]单位获得 [暗影刺客] 单位升级路径
+		每回合 +1 [血影之契]"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-邪袅]>",
+		"Only available <in cities without a [文明领袖-伍六七]>",
+		"Provides [1] [血影之契]"],
+	},
+	{	
+        "name": "文明领袖-伍六七",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "暗杀楼",
+		"replacementTextForUniques": "[刺客]单位获得 [血戮刺客] 单位升级路径
+		每回合 +1 [血影之契]"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-邪袅]>",
+		"Only available <in cities without a [文明领袖-叁新]>",
+		"Provides [1] [血影之契]"],
+	},
+	// 天选之地
+	{	
+        "name": "文明领袖-玄天",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "天选之地",
+		"replacementTextForUniques": "“天佑”概率再次增加11%"
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-逍遥渡影]>",
+			"[+1] population in a random city<with [44]% chance><upon turn end><every [7] turns>"
+		"Gain [33] [Culture]<with [77]% chance><upon turn end><every [7] turns><(modified by game speed)>",
+		"Gain [33] [Science]<with [77]% chance><upon turn end><every [7] turns><(modified by game speed)>",
+		"Gain [33] [Faith]<with [77]% chance><upon turn end><every [7] turns><(modified by game speed)>"
+		"Gain [66] [Gold]<with [77]% chance><upon turn end><every [7] turns><(modified by game speed)>"
+		]
+	},
+	{	
+        "name": "文明领袖-逍遥渡影",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "天选之地",
+		"replacementTextForUniques": "所有军事获得[天赐洪福]晋升"
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-玄天]>",
+		"[Military] units gain the [天赐洪福] promotion"
+		]
+	},
+	{
+		"name": "天降雷火",
+		"uniqueTo": "天选之地",
+		"replaces": "Bonfire"
+		"cost": 20
+	    "faith": 2,
+		"culture": 2,
+		"maintenance": 0,
+		"requiredTech": "Drill Wood to Make Fire",		
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
+	},
+	// 蜀汉
+	{	
+        "name": "文明领袖-刘备",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "蜀汉",
+		"replacementTextForUniques": "
+		在第三十三回合时，获得一位[诸葛亮]单位
+		在首都建造平民单位时，[Production]＋20%"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-刘禅]>",
+		"[1] free [诸葛亮] units appear<upon turn end><when number of [turns] is equal to [33]>"
+		"[+20]% Production when constructing [Civilian] units [in capital]",]
+	},
+	{	
+        "name": "文明领袖-刘禅",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "蜀汉",
+		"replacementTextForUniques": "
+		立刻获得一位[诸葛亮]单位
+		[诸葛亮]可以通过消耗所有行动力触发事件：北伐"
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-刘备]>",
+		"[1] free [诸葛亮] units appear"]
+	},
+	{
+		"name": "奇策-空城计",	
+		"cost": 10000,
+		"uniques":["Unbuildable",
+		"Cannot be purchased",
+		"Unsellable",
+		"Triggers a [空城计] event"]
+	},
+	// 地底人王国
+	{	
+        "name": "文明领袖-地底人的财政官",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "地底人王国",
+		"replacementTextForUniques": "
+		来自贸易路线的[Gold]+100%
+		道路/铁路维护费-25%",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-地底人的建筑师]>",
+		"[+100]% [Gold] from Trade Routes",
+		"[-25]% maintenance on road & railroads",
+		],
+	},
+	{	
+        "name": "文明领袖-地底人的建筑师",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "地底人王国",
+		"replacementTextForUniques": "
+		每座城市建造所有奇观时＋10%[Production]
+		每座城市建造所有文化建筑时＋10%[Production]",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-地底人的财政官]>",
+		"[+10]% Production when constructing [All] wonders [in all cities]",
+		"[+10]% Production when constructing [Culture] buildings [in all cities]"
+		],
+	},
+	{
+		"name": "地下王国的通道",
+		"uniqueTo": "地底人王国",
+		"replaces": "Kiln"
+		"production": 1,
+		"happiness": 1,
+		"faith": 1,
+		"food": 1,
+		"requiredTech": "Pottery",
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"
+		"[1] free [地底人的先锋军] units appear"]
+	},
+	// 寂海深渊
+	{	
+        "name": "文明领袖-大衮",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "寂海深渊",
+		"replacementTextForUniques": "[深潜者]单位在水上地块行动力+1",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-礼海祭]>",
+		"[+1] Movement <in [Water] tiles> <for [深潜者] units>",
+		],
+	},
+	{	
+        "name": "文明领袖-礼海祭",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "寂海深渊",
+		"replacementTextForUniques": "击杀敌方单位获得[Science]（≈击杀单位的花费×15%）",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-大衮]>",
+		"Earn [15]% of killed [Military] unit's [Cost] as [Science]",
+		],
+	},
+	{
+		"name": "拉莱耶古堡",
+		"uniqueTo": "寂海深渊",
+		"replaces": "Palace"
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+		"[1] free [克拉肯] units appear"]	
+	},
+	{
+		"name": "深海洞穴",
+		"uniqueTo": "寂海深渊",
+		"replaces": "Lighthouse"
+		"happiness": 1,
+		"cost": 130,
+		"maintenance": 3,
+		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "Seaside Building", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [{Water} {Bonus resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>",
+		"[2] free [深潜者] units appear"
+		],
+		"requiredTech": "Optics"
+	},
+	// 海洋之息
+	{	
+        "name": "文明领袖-邢殇",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "海洋之息",
+		"replacementTextForUniques": "海滨城市+4[Gold]，[Ocean]地块＋2[Gold]",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-邢釜慎]>",
+		"[+4 Gold] [in all coastal cities]",
+		"[+2 Gold] from [Ocean] tiles [in all cities]"
+		],
+	},
+	{	
+        "name": "文明领袖-邢釜慎",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "海洋之息",
+		"replacementTextForUniques": "海滨城市+3[Faith]，[Coast]地块＋1[Faith]",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-邢殇]>",
+		"[+3 Faith] [in all coastal cities]",
+		"[+1 Faith] from [Coast] tiles [in all cities]"
+		],
+	},
+	{
+		"name": "辉光之塔",
+		"uniqueTo": "海洋之息",
+		"replaces": "Lighthouse"
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "Seaside Building", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [{Water} {Bonus resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>",
+		"[+2] Sight<for [Water] units><in cities with a [辉光之塔]>",		
+		],
+		"requiredTech": "Optics"
+	},
+	// 纳粹帝国
+	{	
+        "name": "文明领袖-希特勒",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "纳粹德国",
+		"replacementTextForUniques": "推行[Autocracy]
+所有城市建造[鼠式坦克]单位时+25%产能
+		研究完[Combined Arms]科技时获得一个免费的[鼠式坦克]单位",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-古德里安]>",
+		"Only available <in cities without a [文明领袖-曼施坦因]>",
+		"Adopt [Autocracy]",
+		"[+25]% Production when constructing [鼠式坦克] units [in all cities]",
+		"[1] free [鼠式坦克] units appear<upon discovering [Combined Arms] technology>",
+		],
+	},
+	{	
+        "name": "文明领袖-古德里安",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "纳粹德国",
+		"replacementTextForUniques": "机动部队+1行动力
+所有城市建造[二号坦克]单位时+25%产能
+[Oil]产量加倍",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-希特勒]>",
+		"Only available <in cities without a [文明领袖-曼施坦因]>",
+		"[+1] Movement <for [Mobile] units>",
+		"[+25]% Production when constructing [二号坦克] units [in all cities]",
+		"Double quantity of [Oil] produced",
+		],
+	},
+	{	
+        "name": "文明领袖-曼施坦因",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "纳粹德国",
+		"replacementTextForUniques": "[Great General]的招募速度×2倍
+每获得一位[Great General]＋5[士气]
+军事单位获得[镰刀计划]晋升",
+		"uniques": [
+		"Can only be built<in [in capital] cities>",
+		"Only available <in cities without a [文明领袖-希特勒]>",
+		"Only available <in cities without a [文明领袖-古德里安]>",
+		"[Great General] is earned [+100]% faster",
+		"Instantly provides [5] [士气]<upon gaining a [Great General] unit>",
+		"[Military] units gain the [镰刀计划] promotion",
+		],
+	},
+	{
+		"name": "奥斯维辛集中营",
+		"production": 3,
+		"gold": 3,
+		"maintenance": 1,
+		"cost": 90,
+		"replaces": "Barracks"
+		"uniqueTo": "纳粹德国",
+		"uniques": ["Only available <in cities with a [City Level II]>",
+		"New [Military] units start with [15] Experience [in this city]",
+		"Destroyed when the city is captured", 
+		"Provides [1] [Number of Buildings] <in this city>",
+		"[-1 Science, -1 Food, -1 Happiness] [in this city]",
+		]
+		"requiredTech": "Army Formation"
+	},
+]

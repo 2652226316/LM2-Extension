@@ -1,0 +1,101 @@
+[
+    // 资源
+    // 曹魏、斗战威海、纳粹德国
+	{
+	    "name": "士气",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Stockpiled"//贮存
+		"Cannot be traded"//不可交易
+		"Not shown on world screen <when above [500] [士气]>",
+		"Not shown on world screen<when below [1] [士气]>"],	
+	},
+	// 民族联合
+	{
+		"name": "CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [CD]>"
+	    ]
+	},
+	// 民族联合
+    {
+		"name": "水神血脉CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [水神血脉CD]>"
+	    ]
+	},
+	// 民族联合
+	{
+		"name": "法力",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [法力]>"
+	    ]
+	},
+    // 暗杀楼
+    {
+		"name": "血影之契",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [血影之契]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "北伐CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [北伐CD]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "东风CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [东风CD]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "火攻CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [火攻CD]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "八卦阵CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [八卦阵CD]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "空城计CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [空城计CD]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "七星",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [七星]>"
+	    ]
+	},
+	// 蜀汉
+	{
+		"name": "展开技能表",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen"
+	    ]
+	},
+]

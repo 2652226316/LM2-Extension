@@ -1,0 +1,125 @@
+    [
+    // 文明特色事件
+    
+    // 曹魏
+    {   
+        "name":"猛攻",
+        "text": "",
+        "choices": [
+            { 
+                "text":"全军突击！",
+                "uniques":["[+20]% Strength<when attacking><for [5] turns>",
+                "[-5]% Strength<vs [Military] units><when defending><for [5] turns>"]
+            },
+        ]
+    },
+    {    
+        "name":"献君三策",
+        "text": "今献君三策，以助主公百战不殆",
+        "choices": [
+            { 
+                "text":"长虹贯日·一字长蛇阵",
+                "uniques":["[+15]% Strength<for [Military] units><for [10] turns>"],
+            },
+            { 
+                "text":"明修栈道，暗度陈仓！",
+                "uniques":["[+1] Movement<for [Military] units><for [10] turns>"],
+            },
+            { 
+                "text":"奇门遁甲·八门金锁阵",
+                "uniques":["[+20]% Strength<vs [Military] units><when defending><for [Military] units><for [10] turns>"],
+            }, 
+        ]
+    },
+    // 民族联合
+    {
+        "name": "民族联合召唤英雄项目",
+        "text": "召唤英雄！",
+        "choices": [
+            {
+                "text": "今以地脉族众人之意志，高呼大地之名！",
+                "uniques": ["Only available<if [召唤地脉族英雄] is not constructed>",
+                "Provides a [召唤地脉族英雄] in your first [1] cities for free<hidden from users>"],
+            },
+            {
+                "text": "今以风灵族众人之意志，贯彻无怨无悔之风",
+                "uniques": ["Only available<if [召唤风灵族英雄] is not constructed>",
+                "Provides a [召唤风灵族英雄] in your first [1] cities for free<hidden from users>"],
+            },
+            {
+                "text": "今以水神族众人之意志，乘冲天巨浪牧世间",
+                "uniques": ["Only available<if [召唤水神族英雄] is not constructed>",
+                "Provides a [召唤水神族英雄] in your first [1] cities for free<hidden from users>"],
+            },
+        ]
+    },
+    // 蜀汉
+    {
+        "name": "北伐",
+        "text": "北伐",
+        "choices": [
+            {
+                "text": "丞相有令，即刻北伐！",
+                "uniques": ["[+20]% Strength<when attacking><for [Military] units><for [2] turns>",
+                "[+1] Movement<for [Military] units><for [2] turns>",],
+            },
+        ]
+    },
+    {
+        "name": "东风",
+        "text": "东风",
+        "choices": [
+            {
+                "text": "今借东风，拂火烹蒸",
+                "uniques": ["[+1] Movement<for [Water] units><for [2] turns>",
+                "[+10]% Strength<when attacking><for [Water] units><for [2] turns>",
+                "[-5]% Strength<when defending><for [Water] units><for [2] turns>",],        
+            },
+        ]
+    },
+    {
+        "name": "火攻",
+        "text": "火攻",
+        "choices": [
+            {
+                "text": "以火攻之，必灭其形",
+                "uniques": ["[+25]% Strength<when attacking><for [Ranged] units><for [2] turns>",
+                "[-5]% Strength<when defending><for [Ranged] units><for [2] turns>",],        
+            },
+        ]
+    },
+    {
+        "name": "八卦阵",
+        "text": "八卦阵",
+        "choices": [
+            {
+                "text": "乾、坎、艮、震、巽、离、坤、兑",
+                "uniques": ["[+20]% Strength<when defending><for [Military] units><for [2] turns>",
+                "[+1] Movement<for [Military] units><for [2] turns>",],        
+            },
+        ]
+    },
+    {
+        "name": "空城计",
+        "text": "空城计",
+        "choices": [
+            {
+                "text": "偃旗息鼓，四门皆开",
+                "uniques": [
+                "[+1000]% Strength for cities<when defending><in cities with a [奇策-空城计]><for [2] turns>",
+                "Sell [奇策-空城计] buildings [in all cities]<upon turn end><when below [20] [空城计CD]><hidden from users>"],
+            },
+        ]
+    },
+    {   
+        "name":"七命",
+        "text": "七星还命",
+        "choices": [
+            { 
+                "text":"今令七星，重续吾命！",
+                "uniques":["[1] free [诸葛亮] units appear<hidden from users>",
+                "Instantly consumes [1] [七星]<hidden from users>",]
+            },
+        ]
+    }
+]

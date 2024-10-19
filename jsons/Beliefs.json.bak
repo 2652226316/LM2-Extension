@@ -1,0 +1,19 @@
+[
+    // 万神殿
+    {
+        "name": "风神",
+        "type": "Pantheon",
+        "uniques": ["[+10]% [Production] [in cities following this religion]"
+"[+1 Production] from every [Windmill]"]
+    },
+    {
+        "name": "地神龙脉",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Land]<in [Capital] cities>"]
+    },
+    {
+        "name": "盗窃与掠夺之神",
+        "type": "Pantheon",
+        "uniques": ["[Military] units gain the [神之手] promotion",]
+    },
+]

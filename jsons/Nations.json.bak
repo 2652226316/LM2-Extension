@@ -1,0 +1,504 @@
+[
+    // 文明/国家
+    {
+		"name": "聚众之力",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["众意"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "一位将军于战场上能杀敌多少？十个？还是二十个？他不可能以一人抵挡千军万马，我们也是一样的。",//开局自己看到的话语1
+        "startIntroPart2": "不是我，而是我们！一人终将无法成就大事，而众人的力量，足矣！",//开局自己看到的话语2+
+        
+	    "declaringWar": "众意昭昭，齐心萧萧！",//宣战时，被宣战文明 看到的话语
+		"attacked": "很快你就会发现，挑战众人的意志，会是多么可笑的事情！",//被宣战时，主动宣战文明 看到的话语
+		
+		"defeated": "我们是不灭的，人民们不会消亡，我们的身影一直在民众之中！",//被打败时，击败文明 看到的话语
+		
+		"introduction": "你好，其他的地方人民啊，我们会乐意与你交好，希望你也如此……",//认识其他文明时，其他文明 看到的话语
+				
+		"neutralHello": "你好，远道而来的朋友，这里的人民很欢迎你！",//别人点进关系面板看到该文明且好感足够时， 其他文明 看到的话语
+		"hateHello": "说真的，你还算不上是我们的朋友......",//别人点进关系面板看到该文明且好感不足够时， 其他文明 看到的话语
+		
+		"tradeRequest": "我们会提供足够的货物给你留下深刻的印象，我们希望你提供的货物也是如此。",//向其他文明发起贸易时，其他文明 看到的话语
+		"outerColor": [0, 233, 254],
+		"innerColor": [26, 0, 0],
+		"favoredReligion": "Taoism",
+		"uniqueName": "与民同乐",
+		"uniqueText": "
+		有文明领袖后，所有城市＋2[Happiness]", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["同心城"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "曹魏",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["大魏"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "智者之虑，虑于无形",
+        "startIntroPart2": "达者所规，规于未兆",
+    
+	    "declaringWar": "白骨露于野，千里无鸡鸣。生民百遗一，念之断人肠。",
+		"attacked": "恃武者灭，恃文者亡，唯吾贵胜！",
+		
+		"defeated": "月明星稀，乌雀南飞",
+		
+		"introduction": "久仰久仰",
+		
+		"neutralHello": "问安尔否",
+		"hateHello": "已有取死之道",
+		
+		"tradeRequest": "各取所需，各得圆满，岂不美哉——",
+		"outerColor": [166, 0, 255],
+		"innerColor": [0, 26, 1],
+		"favoredReligion": "Taoism",
+		"uniqueName": "猛攻",
+		"uniqueText": "每有20[士气]时，消耗20[士气]，令所有军事单位进入“猛攻”状态
+		“猛攻”——在防御时-5%战斗力，进攻时+20%战斗力（持续5回合）"
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"Instantly consumes [20] [士气]<upon turn end><when above [18] [士气]>",
+		"Triggers a [猛攻] event<upon turn end><when above [18] [士气]>"],
+		"cities": ["许昌","陈留","东郡","任城","泰山","济北","山阳","济阴","东平","豫州","徐州","冀州","北海","乐安","高密","平昌","东莱","长广","东牟","幽州","并州","司州","凉州",],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "民族联合",
+		"leaderName": "英雄共治会",
+		"personality": "base",
+		"adjective": ["民联"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "建造一个乌托邦吧",
+        "startIntroPart2": "属于我们民族的乌托邦",
+    
+	    "declaringWar": "你的所作所为触怒了大自然，我们将代其向你宣战！",
+		"attacked": "向我们宣战，将会是你这辈子做过最失败的选择！",
+		"defeated": "我们会消亡，但大自然永远不会，会有更加强大的自然之力将你们消灭的！",
+		
+		"introduction": "你好，我希望我们可以和平共处，共创一个美好家园！",
+		
+		"neutralHello": "欢迎！远方的来客",
+		"hateHello": "即将覆灭的文明，不需要我多费口舌",
+		
+		"tradeRequest": "希望我们的合作能够愉快进行！",
+		"outerColor": [255, 255, 26],
+		"innerColor": [2, 0, 26],
+		"favoredReligion": "Taoism",
+		"uniqueName": "英雄共治",
+		"uniqueText": "该文明没有文明领袖，而是由英雄共治
+		每个时代可召唤一位不同民族的英雄，但每召唤一位英雄后，所有城市建造军事单位时便-15%[Production]，至多-45%[Production]", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"Triggers a [民族联合召唤英雄项目] event <upon entering a new era> <after turn number [5]>",
+		"Provides [-1] [CD]<when above [0] [CD]>"
+		"Provides [-1] [水神血脉CD]<when above [0] [水神血脉CD]>",],
+		"cities": ["余烬"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "斗战威海",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["战威"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "斗不止——",
+        "startIntroPart2": "战不休——",
+    
+	    "declaringWar": "若是在海的领域之外，斗战永胜！如若是在海的领域之内，那你该想好如何逃跑了——",
+		"attacked": "真理所在之地，即是威海炮所向之处，怎么？难道你们已经自大到这种程度了？",
+		
+		"defeated": "海之霸主倒下了，不过，你以为海之神会认可你们的所作所为吗！",
+		
+		"introduction": "很好，你们也被大海认可了！",
+		"neutralHello": "你好",
+		"hateHello": "……",
+		
+		"tradeRequest": "那么，就此展开一场交易盛宴吧！",
+		"outerColor": [193,210,240],
+		"innerColor": [0,0,128],
+		"favoredReligion": "Taoism",
+		"uniqueName": "巅峰对决",
+		"uniqueText": "当不处于战争时建造军事单位时＋10%[Production]，建造平民单位-20%[Production]，每回合-1[士气]
+		当处于战争时建造军事单位＋20%[Production]，建造平民单位-10%[Production]，每回合+1[士气]
+		己方军事单位击败主要文明军事单位时额外-2厌战度，并+1[士气]"
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"[+10]% Production when constructing [Military] units [in all cities]<when not at war>",
+		"[-20]% Production when constructing [Civilian] units [in all cities]<when not at war>",
+		"Provides [-1] [士气]<when above [0] [士气]><when not at war>"
+		"[+20]% Production when constructing [Military] units [in all cities] <when at war>",
+		"[-10]% Production when constructing [Civilian] units [in all cities] <when at war>",
+		"Provides [+1] [士气]<when below [100] [士气]><when at war>",
+		"Instantly consumes [2] [Warfare Aversion Level]<upon defeating a [Major] unit><when above [0] [Warfare Aversion Level]><for [Military] units>",
+		"Instantly provides [1] [士气]<upon defeating a [Major] unit><when above [0] [Warfare Aversion Level]><for [Military] units>",
+		],
+		"cities": ["永胜城"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+	    "name": "黄巾军",
+	    "leaderName": "领袖",
+	    "personality": "base",
+	    "adjective": "乱世开端" 
+	    "preferredVictoryType":"Domination",
+	    "startlntroPart1": "If the people could have no worries about food and clothing and avoid these disasters, how could we gather here for righteousness and choose to embark on the irreversible path of rebellion",
+	    "startlntroPart2": "We have no other choice. Instead of waiting to starve to death, it's better to take a chance now and show our determination to those prestigious families and high-ranking officials who disregard our survival",
+	    
+	    "declaringWar": "What is your choice, to punish me, this' thief '? Or choose to stay in a secluded corner and watch the fire from afar? But how you treat us is no different. Uprising itself has no turning back",
+	    "attacked": "This is not surprising, after all, I am just a ' thief ' in your mouth. The fire has already been ignited, and it is useless for us to say more",	    
+	    "defeated": "Do you think I have failed? My goal has already been achieved, and you are powerless to turn the tide. The hero has already exhausted his strength",
+	    
+	    "introduction": "The Yellow Turban Army is here today. How will you entertain us",
+	    
+	    "neutralHello": "Trading? What kind of chips are you willing to offer",
+	    "hateHello": "The Yellow Turban Army only welcomes those who stand on the side of the people",
+	    
+	    "tradeRequest": "Tell me, what exactly do you need to agree to our request",
+	    "outerColor": [255,255,0],
+	    "innerColor": [235,92,92],
+	    "favoredReligion": "Taoism",
+	    "uniqueName": "聚义",
+	    "uniqueText": "[Faith]会随着[Happiness]的增加而增加，最多＋30%
+	    三十六方众的战斗力会随着[Happiness]的减少而增加，最多＋20%" 
+		"uniques": [
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"[+6 Faith] <when above [21] Happiness>",
+		"[+30]% [Faith] <when between [21] and [100000] Happiness>",
+		"[+5 Faith] <when between [15] and [20] Happiness>",
+	    "[+25]% [Faith] <when between [15] and [20] Happiness>",
+		"[+4 Faith] <when between [9] and [14] Happiness>",
+		"[+20]% [Faith] <when between [9] and [14] Happiness>",
+		"[+3 Faith] <when between [3] and [8] Happiness>",
+	    "[+15]% [Faith] <when between [3] and [8] Happiness>",
+		"[+2 Faith] <when between [-4] and [2] Happiness>",
+		"[+10]% [Faith] <when between [-4] and [2] Happiness>",
+		"[+1 Faith] <when between [-4] and [2] Happiness>",	
+		"[+5]% [Faith] <when between [-10] and [-5] Happiness>",	
+		"[+1]% Strength <for [三十六方众] units> <when between [9] and [10] Happiness>",
+		"[+2]% Strength <for [三十六方众] units> <when between [7] and [8] Happiness>",
+		"[+3]% Strength <for [三十六方众] units> <when between [5] and [6] Happiness>",
+		"[+4]% Strength <for [三十六方众] units> <when between [3] and [4] Happiness>",
+		"[+5]% Strength <for [三十六方众] units> <when between [1] and [2] Happiness>",
+		"[+7]% Strength <for [三十六方众] units> <when between [-1] and [0] Happiness>",
+		"[+8]% Strength <for [三十六方众] units> <when between [-3] and [-2] Happiness>",
+		"[+10]% Strength <for [三十六方众] units> <when between [-5] and [-4] Happiness>",
+		"[+11]% Strength <for [三十六方众] units> <when between [-7] and [-6] Happiness>",
+		"[+13]% Strength <for [三十六方众] units> <when between [-9] and [-8] Happiness>",
+		"[+14]% Strength <for [三十六方众] units> <when between [-11] and [-10] Happiness>",
+		"[+16]% Strength <for [三十六方众] units> <when between [-13] and [-12] Happiness>",
+		"[+17]% Strength <for [三十六方众] units> <when between [-15] and [-14] Happiness>",
+		"[+19]% Strength <for [三十六方众] units> <when between [-17] and [-16] Happiness>",
+		"[+20]% Strength <for [三十六方众] units> <when between [-100000] and [-18] Happiness>",],
+	    "cities":["苍天祭"],
+	    "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]
+	},
+	{
+		"name": "暗杀楼",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["影"],
+		"startBias": ["Forest"]
+		"preferredVictoryType": "Conquer",
+        "startIntroPart1": "潜伏于影......",
+        "startIntroPart2": "其形拟真......",
+    
+        "declaringWar": "猎杀开始——",
+		"attacked": "你居然把猎物与猎人的身份都搞反了？",
+		
+		"defeated": "任务失败......",
+		
+		"introduction": "恭喜你，获得了与我们之间通行证......",
+		
+		"neutralHello": "有需求者，请到里面传达......",
+		"hateHello": "对上暗号者方可入内......",
+		
+		"tradeRequest": "诚心的交易也是我们任务的一环......",
+		"outerColor": [266, 266, 266],
+		"innerColor": [26, 26, 26],
+		"favoredReligion": "Taoism",
+		"uniqueName": "影袭",
+		"uniqueText": "“影”——军事单位可以通过消耗4[血影之契]来获得持续3回合的[影界穿梭]状态
+		“袭”——进攻时，对生命值低于30的敌人造成双倍伤害", 
+		"uniques": [
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",	
+		"\"Borrows\" city names from other civilizations in the game",
+		"[Military] units gain the [影] promotion"	
+		],
+		"cities": ["玄武国"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "天选之地",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["天意"],
+		"preferredVictoryType": "Conquer",
+        "startIntroPart1": "昭昭天命！",
+      
+        "declaringWar": "你触怒了众神庇佑的天地，我们将代天行罚！",
+		"attacked": "天是真的，而你们，是天真的...",
+		
+		"defeated": "人算不如天算，天意尽失啊！",
+		
+		"introduction": "天公作美，这才使得我们在此相遇",
+		
+		"neutralHello": "是大晴天！",
+		"hateHello": "今天的天气似乎一般？",
+		
+		"tradeRequest": "此次交易乃是天意......",
+		"outerColor": [11, 22, 33],
+		"innerColor": [233, 244, 255],
+		"favoredReligion": "Taoism",
+		"uniqueName": "天佑",
+		"uniqueText": "每过7回合时，将会有33%概率＋1人口（随机一座城市）
+每过7回合时，将会有66%概率＋33[Culture]（受游戏速度影响）
+每过7回合时，将会有66%概率＋33[Science]（受游戏速度影响）
+每过7回合时，将会有66%概率＋33[Faith]（受游戏速度影响）
+每过7回合时，将会有66%概率＋66[Gold]（受游戏速度影响）", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"[+1] population in a random city<with [33]% chance><upon turn end><every [7] turns><if [文明领袖-玄天] is not constructed>"
+		"Gain [33] [Culture]<with [66]% chance><upon turn end><every [7] turns><(modified by game speed)><if [文明领袖-玄天] is not constructed>",
+		"Gain [33] [Science]<with [66]% chance><upon turn end><every [7] turns><(modified by game speed)><if [文明领袖-玄天] is not constructed>",
+		"Gain [33] [Faith]<with [66]% chance><upon turn end><every [7] turns><(modified by game speed)><if [文明领袖-玄天] is not constructed>"
+		"Gain [66] [Gold]<with [66]% chance><upon turn end><every [7] turns><(modified by game speed)><if [文明领袖-玄天] is not constructed>"],
+		"cities": ["天官赐福"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "蜀汉",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["蜀国"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Conquer",
+		"startIntroPart1": "君才十倍曹丕，必能安国，终定大事。若嗣子可辅，辅之；如其不才，君可自取。",
+        "startIntroPart2": "政事无巨细，咸决于亮。",
+        
+	    "declaringWar": "明法度，正人心，北定中原。",
+		"attacked": "用兵之道，攻心为上，攻城为下；心战为上，兵战为下，君知其几？",
+		
+		"defeated": "鞠躬尽瘁，死而后已，我已无愧于心。",
+		
+		"introduction": "有朋自远方来，不亦乐乎。",
+			
+		"neutralHello": "客人跨越万水千山而来，这情谊难道不珍贵吗？",
+		"hateHello": "虽不算吾友，但也欢迎。",
+		
+		"tradeRequest": "以其所有，易其所无。",
+		"outerColor": [255, 0, 0],
+		"innerColor": [255, 215, 0],
+		"favoredReligion": "Taoism",
+		"uniqueName": "民心所望",
+		"uniqueText": "每五个人口＋1[Happiness]", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"[+1 Happiness] per [5] population [in all cities]",
+		"Provides [-1] [北伐CD]<when above [0] [北伐CD]>",
+		"Provides [-1] [东风CD]<when above [0] [东风CD]>",
+		"Provides [-1] [火攻CD]<when above [0] [火攻CD]>",
+	    "Provides [-1] [八卦阵CD]<when above [0] [八卦阵CD]>",
+	    "Provides [-1] [空城计CD]<when above [0] [空城计CD]>",
+	    "Provides [1] [CD]<when below [0] [CD]>",
+	    "Provides [-1] [展开技能表]<when above [0] [展开技能表]>",
+		"Instantly provides [7] [七星]",
+	    ],
+		"cities": ["成都"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "地底人王国",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["无尽洞窟"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "这片土地本来就是属于我们的，我们必须亲手夺回来，否则我们只能继续如同鼹鼠一般栖息在暗无天日的地下。",
+        "startIntroPart2": "他们很快会明白他们的敌人是什么，不过那是他们灭亡的时候。",
+        
+	    "declaringWar": "你们从我们这里窃取的土地该归还了，人类！",	    
+		"attacked": "难道你们在向敌人开战前不会估量一下差距吗？",
+		
+		"defeated": "我们只是暂时撤回地下世界，你们得意不了太久的。",
+		
+		"introduction": "看起来你们发展的还不错，人类。",
+			
+		"neutralHello": "如果你们可以保持我们之间的关系，或许我们真能和平共处。",
+		"hateHello": "赶紧离开这里，这不是你们该来地方，除非你们想尝试一下被埋在土里的滋味。",
+		
+		"tradeRequest": "我们这里有你没有的东西，你们也是，来做一个交易吧。"
+		"outerColor": [237, 189, 101],
+		"innerColor": [7, 65, 0],
+		"favoredReligion": "Taoism",
+		"uniqueName": "大地的馈赠",
+		"uniqueText": "
+		所有地块建设时间-15%
+		所有[Quarry]和[Mine]+1[Production]
+		所有单位获得[地底通行]晋升", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		"\"Borrows\" city names from other civilizations in the game",
+		"[-15]% construction time for [All] improvements",
+		"[+1 Production] from every [Quarry]",
+		"[+1 Production] from every [Mine]",
+		"[All] units gain the [地底通行] promotion"],
+		"cities": ["地底人的前哨站"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "寂海深渊",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["异海"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "我的同胞们，伟大的主如今已经陷入沉睡，我们现在得靠自己了。",
+        "startIntroPart2": "现在让我们从拉莱耶为起点为父神了战斗吧。",
+               
+	    "declaringWar": "异端，消减。",
+		"attacked": "你们不过是把即将迎来的战争提前了罢了。",
+		
+		"defeated": "待父神苏醒之时，一切会得到清算。",
+		
+		"introduction": "看起来近千年的沉睡早已让你们忘却了我们，不过你们很快会得以解惑。"
+			
+		"neutralHello": "你好，朋友，你们暂时得到了我们的接纳。",
+		"hateHello": "有事说事，没事赶紧离开这里，这里不欢迎你们。",
+		
+		"tradeRequest": "人类，你们的领土上有我们想要的东西，来做笔交易吧。",
+		"outerColor": [71, 59, 120],
+		"innerColor": [61, 110, 112],
+		"favoredReligion": "Taoism",
+		"uniqueName": "父神的庇护",
+		"uniqueText": "水上资源地块+1[Faith]、+1[Food]"
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		 "[+1 Faith] from every [resource]<in [Water] tiles>"
+		 "[+1 Food] from every [resource]<in [Water] tiles>"],
+		"cities": ["拉莱耶"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "海洋之息",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["海"],
+		"startBias": ["Ocean"],
+		"preferredVictoryType": "Religion",
+		"startIntroPart1": "聆听海洋的声音吧！",
+        "startIntroPart2": "它在告诉我们，海与我们同在......",
+        
+	    "declaringWar": "海洋告诉我们，你们——该消亡了！",
+		"attacked": "我很疑惑，疑惑你们是否能承受海洋之怒！",
+		
+		"defeated": "我想你也许永远都不会明白海洋之美，那一片的蔚蓝无际藏着比星空更加炫彩的秘密......",
+		
+		"introduction": "朋友，你身上似乎也有海洋的气息......",	
+		"neutralHello": "你好，远道而来的朋友，你也想来观摩这变化多端的大海吗？",
+		"hateHello": "我想，我们没什么可说的，海洋也是如此认为。",
+		
+		"tradeRequest": "我们这里，有着来自海洋的瑰宝，我想你也会很需要的！"
+		"outerColor": [143, 22, 93],
+		"innerColor": [77, 166, 255],
+		"favoredReligion": "Taoism",
+		"uniqueName": "怒海狂涛",
+		"uniqueText": "沿海城市自然扩张[Culture]需求-10%
+		其他单位在己方领地的水上地块时-1行动力、-20%战斗力", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game"
+		"[-10]% Culture cost of natural border growth [in all coastal cities]"
+		],
+		"cities": ["沉眠之地"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "纳粹德国",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["纳粹"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [250, 255, 255],
+		"innerColor": [26, 22, 21],
+		"favoredReligion": "Taoism",
+		"uniqueName": "平原闪击战",
+		"uniqueText": "我方机动部队在[Plains]地块+1行动力、对战敌方单位进攻时+15%战斗力、对战城市进攻时＋33%战斗力", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game",
+		"[+1] Movement <for [Mobile] units> <in [Plains] tiles>"
+		"[+15]% Strength <for [Mobile] units> <vs [All] units> <when attacking> <in [Plains] tiles>",
+		"[+33]% Strength <for [Mobile] units> <vs cities> <when attacking> <in [Plains] tiles>",
+		],
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+    {
+		"name": "牧",
+		"leaderName": "领袖",
+		"personality": "base",
+		"adjective": ["众意"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "一位将军于战场上能杀敌多少？十个？还是二十个？他不可能以一人抵挡千军万马，我们也是一样的。",//开局自己看到的话语1
+        "startIntroPart2": "不是我，而是我们！一人终将无法成就大事，而众人的力量，足矣！",//开局自己看到的话语2+
+        
+	    "declaringWar": "众意昭昭，齐心萧萧！",//宣战时，被宣战文明 看到的话语
+		"attacked": "很快你就会发现，挑战众人的意志，会是多么可笑的事情！",//被宣战时，主动宣战文明 看到的话语
+		
+		"defeated": "我们是不灭的，人民们不会消亡，我们的身影一直在民众之中！",//被打败时，击败文明 看到的话语
+		
+		"introduction": "你好，其他的地方人民啊，我们会乐意与你交好，希望你也如此……",//认识其他文明时，其他文明 看到的话语
+				
+		"neutralHello": "你好，远道而来的朋友，这里的人民很欢迎你！",//别人点进关系面板看到该文明且好感足够时， 其他文明 看到的话语
+		"hateHello": "说真的，你还算不上是我们的朋友......",//别人点进关系面板看到该文明且好感不足够时， 其他文明 看到的话语
+		
+		"tradeRequest": "我们会提供足够的货物给你留下深刻的印象，我们希望你提供的货物也是如此。",//向其他文明发起贸易时，其他文明 看到的话语
+		"outerColor": [0, 233, 254],
+		"innerColor": [26, 0, 0],
+		"favoredReligion": "Taoism",
+		"uniqueName": "与民同乐",
+		"uniqueText": "
+		有文明领袖后，所有城市＋2[Happiness]", 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>",
+		"[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+		"\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": ["同心城"],
+        "spyNames": ["悲剧", "刚下游戏不太会", "醉生梦死", "黑暗猎鹰", "爱“种田”的大秦", "凯尔", "孤舟梦呓", "龙舌兰", "瑞", "歌时"]    
+    },
+]
